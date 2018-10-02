@@ -2,6 +2,89 @@
 /* main portfolio styles */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+/* CSS reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
+	background-color: #FFFFFF;
+
 }
+
+/* flexbox navigation */
+
+nav {
+	display: flex;
+	height: 40px;
+	align-items: center;
+	width: 100%;
+}
+
+
+nav a {
+	width: 20%;
+	background: #EAEAEA;
+	text-align: center;
+	text-decoration: none;
+	color: #393939;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+nav a:hover {
+	background: #DCDCDC;
+	border: 0.5px #CECECE solid;
+}
+
+#navigationsmenu1 {
+	width: 20%;
+	background: #EAEAEA;
+	padding-bottom: 15px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu2 {
+	width: 20%;
+	background: #EAEAEA;
+	padding-bottom: 15px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu3 {
+	width: 5%;
+	background: #EAEAEA;
+	text-align: center;
+	text-decoration: none;
+	color: #393939;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu3:hover {
+	border: none;
+}
+
+/* billeder */
+
+#menuikon-1 {
+	width: 20px;
+	height: 18px;
+}
+
+#baggrundbillede-side-1 {
+	width: 100%;
+}	
