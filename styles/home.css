@@ -87,14 +87,36 @@ nav a:hover {
 h1 {
 	width: 100%;
 	text-align: center;
+	color: #000000;
+	margin-top: 27%;
+	font-size: 80%;
+	opacity: 0.6;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	color: #000000;
+	font-size: 300%;
+	opacity: 0.6;
+}
+
+#centerbox {
+	width: 100%;
+	text-align: center;
 	bottom: 0px;
 	text-decoration: none;
 	background-color: #EBEBEB;
 	color: #000000;
-	padding-bottom: 3%;
-	padding-top: 3%;
-	margin-top: 65%;
-	font-size: 275%;
+	padding-bottom: 1.5%;
+	padding-top: 1.5%;
+	margin-top: 5%;
+	font-size: 200%;
 	opacity: 0.4;
-	border: 0.05px solid #D5D5D5;
+	border: 0.05px solid #C1C1C1;
+}
+
+#centerbox:hover {
+	background-color: #FFFFFF;
+	height: 110%;
 }
