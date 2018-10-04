@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* main portfolio styles */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* CSS reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+} 
+
+/* flexbox navigation */
+
+nav {
+	display: flex;
+	height: 35px;
+	align-items: center;
+	width: 100%;
+}
+
+
+nav a {
+	width: 20%;
+	background: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 17px;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+nav a:hover {
+	background: #EEEEEE;
+	border: 0.5px #CECECE solid;
+}
+
+#navigationsmenu1 {
+	width: 20%;
+	background: #FFFFFF;
+	padding-bottom: 17px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu2 {
+	width: 20%;
+	background: #FFFFFF;
+	padding-bottom: 17px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu3 {
+	width: 20%;
+	background: #FFFFFF;
+	padding-bottom: 17px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu3:hover {
+	border: none;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+/* "Uddannelse" indhold */
+
+.flexcontainer {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	text-align: left;
+	padding-top: 2%
+}
+
+h1 {
+	text-align: left;
+	margin-top: 6.5%;
+	margin-left: 10.5%;
+	margin-right: 5%;
+}
+
+h2 {
+	text-align: left;
+	margin-top: 2%;
+	margin-left: 10.5%;
+	margin-right: 5%;
+	opacity: 0.65;
+	font-size: 110%;
+	
+}
+
+ul {
+	margin-right: 1px;
+	margin-top: 10%;
+	margin-left: 15%;
+}
+
+#multimediedesign-billede {
+	bottom: 20px;
+	left: 5%;
+	width: 525px;
+	position: absolute;
+}
+
+.trekant-bund {
+	width: 0;
+	height: 0;
+	border-bottom: 400px solid #F2F3FF;
+	border-left: 500px solid transparent;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: -1;
+}
+
+.trekant-top {
+	width: 0;
+	height: 0;
+	border-top: 200px solid #F2F3FF;
+	border-right: 250px solid transparent;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}

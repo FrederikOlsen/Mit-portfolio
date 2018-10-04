@@ -11,7 +11,10 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
-	background-color: #FFFFFF;
+	background-image: url(../images/desk.edited.jpg);
+	background-size: 100%;
+	background-position: top left;
+	background-attachment: fixed;
 }
 
 /* flexbox navigation */
@@ -71,11 +74,4 @@ nav a:hover {
 #navigationsmenu3:hover {
 	border: none;
 	border-bottom: 0.5px #AAAAAA solid;
-}
-
-/* billeder */
-
-#baggrundsbillede1 {
-	margin-top: 6px;
-	width: 100%;
 }

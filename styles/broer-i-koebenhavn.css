@@ -86,10 +86,19 @@ h2 {
 	text-align: left;
 	margin-top: 1%;
 	margin-left: 5%;
-	margin-right: 50%;
-	opacity: 0.65;
-	
+	margin-right: 55%;
+	font-size: 115%;
 }
+
+h3 {
+	text-align: left;
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 55%;
+	opacity: 0.65;
+	font-size: 93%;
+}
+
 
 #bro-collage {
 	width: 49.5%;
@@ -100,15 +109,16 @@ h2 {
 	top: 7.85%;
 }
 
-.trekant-bund {
-	width: 0;
-	height: 0;
-	border-bottom: 400px solid #F2F3FF;
-	border-left: 500px solid transparent;
+.baggrundsfarve {
+	background: #F2F3FF;
+	width: 50%;
+	height: 93.3%;
+	margin-left: 50%;
+	margin-top: 0%;
 	position: absolute;
+	top: 6.7%;
 	right: 0px;
-	bottom: 0px;
-	z-index: -1;
+	z-index: -1;	
 }
 
 .trekant-top {
