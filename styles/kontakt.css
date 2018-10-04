@@ -72,64 +72,67 @@ nav a:hover {
 	border-bottom: 0.5px #AAAAAA solid;
 }
 
-/* "Uddannelse" indhold */
-
-.flexcontainer {
-	display: flex;
-	flex-direction: row;
-	height: 100%;
-	text-align: left;
-	padding-top: 2%
-}
+/* "kontakt" indhold */
 
 h1 {
 	text-align: left;
-	margin-top: 6.5%;
-	margin-left: 10.5%;
+	margin-top: 10%;
+	margin-left: 10%;
 	margin-right: 5%;
+	margin-bottom: 3%;
+	font-size: 240%;
 }
 
 h2 {
 	text-align: left;
 	margin-top: 2%;
-	margin-left: 10.5%;
+	margin-left: 10%;
 	margin-right: 5%;
-	opacity: 0.65;
-	font-size: 110%;
-	
+	opacity: 0.75;
+	font-size: 150%;
 }
 
-ul {
-	margin-right: 1px;
-	margin-top: 10%;
-	margin-left: 15%;
-}
 
-#multimediedesign-billede {
-	bottom: 20px;
-	left: 5%;
-	width: 525px;
+#frederik {
+	width: 20%;
+	box-shadow: 2px 2px 100px #B4B4B4;
 	position: absolute;
+	top: 28.5%;
+	right: 20%;
 }
 
-.trekant-bund {
-	width: 0;
-	height: 0;
-	border-bottom: 400px solid #F2F3FF;
-	border-left: 500px solid transparent;
+.baggrundsfarve {
+	background: #F2F3FF;
+	width: 50%;
+	height: 93.3%;
+	margin-left: 50%;
+	margin-top: 0%;
 	position: absolute;
+	top: 6.7%;
 	right: 0px;
-	bottom: 0px;
-	z-index: -1;
+	z-index: -1;	
 }
 
 .trekant-top {
 	width: 0;
 	height: 0;
-	border-top: 200px solid #F2F3FF;
-	border-right: 250px solid transparent;
+	border-top: 100px solid #F2F3FF;
+	border-left: 500px solid transparent;
 	position: absolute;
-	left: 0px;
-	top: 0px;
+	right: 50%;
+	top: 6.5%;
+	z-index: -1;
+
+}
+	
+
+.trekant-bund {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid #F2F3FF;
+	border-left: 500px solid transparent;
+	position: absolute;
+	right: 50%;
+	bottom: 0px;
 	z-index: -1;
 }

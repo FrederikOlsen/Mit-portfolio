@@ -71,7 +71,7 @@ nav a:hover {
 	border-bottom: 0.5px #AAAAAA solid;
 }
 
-/* "Projekter" indhold */
+/* "Sefi Lyngby" indhold */
 
 h1 {
 	text-align: left;
@@ -98,7 +98,7 @@ h3 {
 	font-size: 93%;
 }
 
-/* flexbox citater */
+/* flexbox liste */
 
 .flex-container {
 	display: flex;
