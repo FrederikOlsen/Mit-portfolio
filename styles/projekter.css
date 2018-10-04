@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* main portfolio styles */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* CSS reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+} 
+
+/* flexbox navigation */
+
+nav {
+	display: flex;
+	height: 35px;
+	align-items: center;
+	width: 100%;
+}
+
+
+nav a {
+	width: 20%;
+	background: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 17px;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+nav a:hover {
+	background: #EEEEEE;
+	border: 0.5px #CECECE solid;
+}
+
+#navigationsmenu1 {
+	width: 20%;
+	background: #FFFFFF;
+	padding-bottom: 17px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu2 {
+	width: 20%;
+	background: #FFFFFF;
+	padding-bottom: 17px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu3 {
+	width: 20%;
+	background: #FFFFFF;
+	padding-bottom: 17px;
+	padding-top: 29px;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+#navigationsmenu3:hover {
+	border: none;
+	border-bottom: 0.5px #AAAAAA solid;
+}
+
+/* "Projekter" indhold */
+
+h1 {
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 50%;
+}	
+
+/* flexbox grid */
+
+#projekter {
+	display: flex;
+	height: 35px;
+	align-items: center;
+	width: 90%;
+	padding-left: 3%;
+}
+
+
+#projekter div {
+	width: 10%;
+	padding-left: 2%;
+	padding-right: 6.8%;
+	padding-bottom: 5%;
+	padding-top: 25%;
+	
+	
+}
+
+#broer {
+	transition: width 0.15s;
+	transition-timing-function: ease-out;
+	box-shadow: 1px 1px 20px #C7C7C7;
+}
+
+#broer:hover {
+width: 207px;
+height: 207px;
+opacity: 0.4;
+}
+
+#sefi {
+	transition: width 0.15s;
+	transition-timing-function: ease-out;
+	box-shadow: 1px 1px 20px #C7C7C7;
+}
+
+#sefi:hover {
+width: 207px;
+height: 207px;
+opacity: 0.4;
+}
+
+
+.trekant-bund {
+	width: 0;
+	height: 0;
+	border-bottom: 400px solid #F2F3FF;
+	border-left: 500px solid transparent;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	z-index: -1;
+}
+
+.trekant-top {
+	width: 0;
+	height: 0;
+	border-top: 200px solid #F2F3FF;
+	border-right: 250px solid transparent;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
