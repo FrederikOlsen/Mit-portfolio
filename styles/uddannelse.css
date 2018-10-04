@@ -101,7 +101,7 @@ h2 {
 
 ul {
 	margin-right: 1px;
-	margin-top: 10%;
+	margin-top: 2%;
 	margin-left: 15%;
 }
 
@@ -132,4 +132,10 @@ ul {
 	left: 0px;
 	top: 0px;
 	z-index: -1;
+}
+
+h3 {
+	margin-right: 1px;
+	margin-top: 10%;
+	margin-left: 15%;
 }

@@ -103,6 +103,8 @@ h1 {
 }
 
 #broer {
+	width: 200px;
+	height: 200px;
 	transition: width 0.15s;
 	transition-timing-function: ease-out;
 	box-shadow: 1px 1px 20px #C7C7C7;
@@ -115,6 +117,8 @@ opacity: 0.4;
 }
 
 #sefi {
+	width: 200px;
+	height: 200px;
 	transition: width 0.15s;
 	transition-timing-function: ease-out;
 	box-shadow: 1px 1px 20px #C7C7C7;
